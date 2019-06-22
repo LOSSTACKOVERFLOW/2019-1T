@@ -63,3 +63,14 @@
     margin-left: -300%;
   }
 }
+
+.img {
+  transition: transform .5s;
+}
+
+.img:hover {
+  position: absolute;
+  transform: scale(5.5);
+  z-index: 1;
+  display:inline-block;
+}
